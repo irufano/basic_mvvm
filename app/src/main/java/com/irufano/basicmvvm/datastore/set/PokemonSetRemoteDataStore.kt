@@ -1,6 +1,7 @@
 package com.irufano.basicmvvm.datastore.set
 
 import com.irufano.basicmvvm.model.PokemonSet
+import com.irufano.basicmvvm.webservice.PokemonTcgService
 
 class PokemonSetRemoteDataStore(private val pokemonTcgService: PokemonTcgService) :
     PokemonSetDataStore {
