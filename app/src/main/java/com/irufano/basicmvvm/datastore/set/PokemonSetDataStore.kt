@@ -1,4 +1,4 @@
-package com.irufano.basicmvvm.datastore
+package com.irufano.basicmvvm.datastore.set
 
 import com.irufano.basicmvvm.model.PokemonSet
 
