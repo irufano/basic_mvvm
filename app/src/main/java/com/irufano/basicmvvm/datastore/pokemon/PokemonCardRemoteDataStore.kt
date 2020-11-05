@@ -1,6 +1,7 @@
 package com.irufano.basicmvvm.datastore.pokemon
 
 import com.irufano.basicmvvm.model.PokemonCard
+import com.irufano.basicmvvm.webservice.PokemonTcgService
 
 class PokemonCardRemoteDataStore(private val pokemonTcgService: PokemonTcgService) : PokemonCardDataStore {
     override suspend fun getPokemons(set: String): MutableList<PokemonCard>? {

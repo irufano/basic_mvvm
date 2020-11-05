@@ -1,5 +1,6 @@
 package com.irufano.basicmvvm.repository
 
+import com.irufano.basicmvvm.datastore.pokemon.PokemonCardDataStore
 import com.irufano.basicmvvm.model.PokemonCard
 
 class PokemonCardRepository private constructor() : BaseRepository<PokemonCardDataStore>() {
